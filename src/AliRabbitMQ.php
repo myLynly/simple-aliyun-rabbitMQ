@@ -4,7 +4,7 @@
  * @author admin 2024-06-15
  */
 
-namespace Rmq1999\RmqAliyun;
+namespace Rshd\CommonAliyunRabbitMq;
 
 use ErrorException;
 use PhpAmqpLib\Connection\AMQPStreamConnection;

@@ -1,21 +1,16 @@
 {
-    "name": "rmq1999/rmq_aliyun",
+    "name": "rshd/common-aliyun-rabbit-mq",
+    "description": "简单封装的阿里云rabbit收发消息",
     "type": "library",
     "require": {
-        "php": ">7.0",
+        "php": ">=7.0",
         "php-amqplib/php-amqplib": ">=2.8"
     },
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Rmq1999\\RmqAliyun\\": "src/"
+            "Rshd\\CommonAliyunRabbitMq\\": "src/"
         }
     },
-    "authors": [
-        {
-            "name": "Lynly",
-            "email": "1254746738@qq.com"
-        }
-    ],
     "minimum-stability": "dev"
 }
